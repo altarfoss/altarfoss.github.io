@@ -14,38 +14,27 @@ theme = "hugo-theme-chunky-poster"
     identifier = "beranda"
     name = "Beranda"
     url = "/"
-    weight = 10
+    weight = 100
     title = "Beranda"
   [[menu.main]]
     identifier = "tentang"
     name = "Tentang"
     url = "/tentang/"
-    weight = 0
+    weight = 99
     title = "Tentang"
   [[menu.main]]
     identifier = "fokus"
     name = "Fokus"
     url = "#"
-    weight = 1.0
-  [[menu.main]] 
-    name = "Linux"
-    title = "Linux"
-    parent = "fokus"
-    url = "/tag/linux"
-    weight = 1.0
-  [[menu.main]] 
-    name = "Privasi"
-    title = "Privasi"
-    parent = "fokus"
-    url = "/tag/privasi"
-    weight = 2.0
-  [[menu.main]] 
-    name = "Alternatif Software"
-    title = "Alternatif Software"
-    parent = "fokus"
-    url = "/tag/alternatifsoftware"
-    weight = 3.0
-
+    weight = 98
+    title = "Fokus"
+  [menu.main]]
+    identifier = "kontak"
+    name = "kontak"
+    url = "/kontak"
+    weight = 97
+    title = "Kontak"
+  
 
 [taxonomies]
 category = "categories"
