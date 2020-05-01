@@ -26,25 +26,25 @@ theme = "hugo-theme-chunky-poster"
     identifier = "fokus"
     name = "Fokus"
     url = "#"
-    weight = 1
+    weight = 1.0
   [[menu.main]] 
     name = "Linux"
     title = "Linux"
     parent = "fokus"
     url = "/tag/linux"
-    weight = 1
+    weight = 1.0
   [[menu.main]] 
     name = "Privasi"
     title = "Privasi"
     parent = "fokus"
     url = "/tag/privasi"
-    weight = 2
+    weight = 2.0
   [[menu.main]] 
     name = "Alternatif Software"
     title = "Alternatif Software"
     parent = "fokus"
     url = "/tag/alternatifsoftware"
-    weight = 3
+    weight = 3.0
 
 
 [taxonomies]
