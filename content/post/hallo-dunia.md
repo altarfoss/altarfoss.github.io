@@ -1,10 +1,10 @@
 ---
 title: "Hallo Dunia - Will deleted soon"
 date: 2020-05-02T01:21:07+08:00
-images: ["/images/IoT.png"]
-categories: [Lyfe]
-tags: [freshstart]
-series: [Testing]
+images: ["IoT.png",]
+categories: ["Lyfe"]
+tags: ["freshstart","NewStart",]
+series: ["Testing"]
 authors: [Lung]
 ---
 
