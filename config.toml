@@ -20,20 +20,8 @@ theme = "hugo-theme-chunky-poster"
     identifier = "tentang"
     name = "Tentang"
     url = "/tentang/"
-    weight = 1
+    weight = 0
     title = "Tentang"
-  [[menu.main]]
-    identifier = "fokus"
-    name = "Fokus"
-    url = "#"
-    weight = 2
-    title = "Fokus"
-  [menu.main]]
-    identifier = "kontak"
-    name = "kontak"
-    url = "/kontak"
-    weight = 3
-    title = "Kontak"
   
 
 [taxonomies]
