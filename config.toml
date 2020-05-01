@@ -11,15 +11,41 @@ theme = "hugo-theme-chunky-poster"
 
 [menu]
   [[menu.main]]
-    identifier = "home"
-    name = "Home"
+    identifier = "beranda"
+    name = "Beranda"
     url = "/"
     weight = 10
+    title = "Beranda"
   [[menu.main]]
-    identifier = "about"
-    name = "About"
-    url = "/about/"
+    identifier = "tentang"
+    name = "Tentang"
+    url = "/tentang/"
     weight = 0
+    title = "Tentang"
+  [[menu.main]]
+    identifier = "fokus"
+    name = "Fokus"
+    url = "#"
+    weight = 1
+  [[menu.main]] 
+    name = "Linux"
+    title = "Linux"
+    parent = "fokus"
+    url = "/tag/linux"
+    weight = 1
+  [[menu.main]] 
+    name = "Privasi"
+    title = "Privasi"
+    parent = "fokus"
+    url = "/tag/privasi"
+    weight = 2
+  [[menu.main]] 
+    name = "Alternatif Software"
+    title = "Alternatif Software"
+    parent = "fokus"
+    url = "/tag/alternatifsoftware"
+    weight = 3
+
 
 [taxonomies]
 category = "categories"
@@ -40,9 +66,9 @@ author = "authors"
 
   [params.social]
     rss = true
-    email = "example@example.com"
+    email = "analytic.altarfoss@gmail.com"
     instagram = "https://stackoverflow.com"
-    github = "https://github.com"
+    github = "https://github.com/altarfoss"
 
   [params.prismJS]
     enable = true
