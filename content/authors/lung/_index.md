@@ -1,5 +1,5 @@
 ---
 name: "Lung"
-images: ["content/authors/lung/author.jpg"]
+images: ["author.jpg"]
 twitter: "msyf110100"
 ---
