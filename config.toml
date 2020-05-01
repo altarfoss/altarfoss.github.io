@@ -1,4 +1,4 @@
-baseURL = "https://altarfoss.com"
+baseURL = "https://altarfoss.netlify.app"
 title = "AltarFOSS"
 copyright = "Copyright © 2020, AltarFOSS; all rights reserved."
 paginate = 2
