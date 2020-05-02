@@ -6,7 +6,7 @@ languageCode = "id-id"
 enableInlineShortcodes = true
 footnoteReturnLinkContents = "^"
 googleAnalytics = "UA-XXXX"
-DisqusShortname = ""
+DisqusShortname = "altarfoss"
 theme = "hugo-theme-chunky-poster"
 
 [menu]
@@ -14,17 +14,17 @@ theme = "hugo-theme-chunky-poster"
     identifier = "beranda"
     name = "Beranda"
     url = "/"
-    weight = 2
+    weight = 1
   [[menu.main]]
     identifier = "tentang"
     name = "Tentang"
     url = "/tentang/"
-    weight = 3
+    weight = 2
 [[menu.main]]
         identifier = "fokus"
         name = "Fokus"
         title = "Fokus"
-        weight = 1
+        weight = 3
             [[menu.main]]
                 parent = "fokus"
                 name = "Linux"
@@ -70,7 +70,7 @@ author = "authors"
     theme = ""
 
   [params.commento]
-    enable = true
+    enable = false
     url = "https://commento.io"
 
 [markup]
