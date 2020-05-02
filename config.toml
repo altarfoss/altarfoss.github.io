@@ -14,14 +14,32 @@ theme = "hugo-theme-chunky-poster"
     identifier = "beranda"
     name = "Beranda"
     url = "/"
-    weight = 10
-    title = "Beranda"
+    weight = 2
   [[menu.main]]
     identifier = "tentang"
     name = "Tentang"
     url = "/tentang/"
-    weight = 0
-    title = "Tentang"
+    weight = 3
+[[menu.main]]
+        identifier = "fokus"
+        name = "Fokus"
+        title = "Fokus"
+        weight = 1
+            [[menu.main]]
+                parent = "fokus"
+                name = "Linux"
+                url = "/tags/linux"
+                weight = 1
+            [[menu.main]]
+                parent = "fokus"
+                name = "Privasi"
+                url = "/tags/privasi"
+                weight = 2
+            [[menu.main]]
+                parent = "fokus"
+                name = "Altarnatif Software"
+                url = "/tag/alternatifsoftware"
+                weight = 3
   
 
 [taxonomies]
