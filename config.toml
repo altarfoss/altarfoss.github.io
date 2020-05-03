@@ -51,7 +51,7 @@ author = "authors"
 [params]
   author = "AltarFOSS"
   description = "Sesajen dari Pengguna Sumber Terbuka."
-  homepageImage = "/images/hompage-image.jpg"
+  homepageImage = "/images/homepage-image.jpg"
   share = true
   showLanguageSwitcher = false
 
