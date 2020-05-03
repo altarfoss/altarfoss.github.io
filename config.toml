@@ -5,7 +5,7 @@ paginate = 2
 languageCode = "id-id"
 enableInlineShortcodes = true
 footnoteReturnLinkContents = "^"
-googleAnalytics = "UA-XXXX"
+googleAnalytics = "UA-165378696-1"
 DisqusShortname = "altarfoss"
 theme = "hugo-theme-chunky-poster"
 
@@ -50,8 +50,8 @@ author = "authors"
 
 [params]
   author = "AltarFOSS"
-  description = "Ini si Admin, dia gak satu."
-  homepageImage = "/images/author.jpg"
+  description = "Sesajen dari Pengguna Sumber Terbuka."
+  homepageImage = "/images/sesajen.png"
   share = true
   showLanguageSwitcher = false
 
