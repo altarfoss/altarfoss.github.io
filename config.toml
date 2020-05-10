@@ -1,7 +1,7 @@
 baseURL = "https://altarfoss.netlify.app"
 title = "AltarFOSS"
 copyright = "Copyright © 2020, AltarFOSS; all rights reserved."
-paginate = 2
+paginate = 1
 languageCode = "id-id"
 enableInlineShortcodes = true
 footnoteReturnLinkContents = "^"
