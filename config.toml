@@ -1,5 +1,5 @@
 baseURL = "https://altarfoss.netlify.app"
-title = "AltarFOSS"
+title = "kehidupan terminal"
 copyright = "Copyright © 2020, AltarFOSS; all rights reserved."
 paginate = 1
 languageCode = "id-id"
@@ -21,26 +21,26 @@ theme = "hugo-theme-chunky-poster"
     url = "/tentang/"
     weight = 2
 [[menu.main]]
-        identifier = "fokus"
-        name = "Fokus"
-        title = "Fokus"
-        weight = 3
-            [[menu.main]]
-                parent = "fokus"
-                name = "Linux"
-                url = "/tags/linux"
-                weight = 1
-            [[menu.main]]
-                parent = "fokus"
-                name = "Privasi"
-                url = "/tags/privasi"
-                weight = 2
-            [[menu.main]]
-                parent = "fokus"
-                name = "Altarnatif Software"
-                url = "/tag/alternatifsoftware"
-                weight = 3
-  
+	identifier = "fokus"
+	name = "Fokus"
+	title = "Fokus"
+	weight = 3
+	    [[menu.main]]
+		parent = "fokus"
+		name = "Linux"
+		url = "/tags/linux"
+		weight = 1
+	    [[menu.main]]
+		parent = "fokus"
+		name = "Privasi"
+		url = "/tags/privasi"
+		weight = 2
+	    [[menu.main]]
+		parent = "fokus"
+		name = "Altarnatif Software"
+		url = "/tag/alternatifsoftware"
+		weight = 3
+
 
 [taxonomies]
 category = "categories"
@@ -82,4 +82,4 @@ author = "authors"
     disableInlineCSS = true
 
   [services.twitter]
-    disableInlineCSS = true 
+    disableInlineCSS = true
