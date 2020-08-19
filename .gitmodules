@@ -1,3 +1,6 @@
 [submodule "themes/hugo-theme-chunky-poster"]
 	path = themes/hugo-theme-chunky-poster
 	url = https://github.com/altarfoss/hugo-theme-chunky-poster.git
+[submodule "themes/kelayu"]
+	path = themes/kelayu
+	url = https://github.com/syahrulfadli/kelayu.git

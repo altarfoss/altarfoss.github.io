@@ -1,85 +1,76 @@
 baseURL = "https://altarfoss.netlify.app"
-title = "kehidupan Terminal dalam Cangkang"
-copyright = "Copyright © 2020, AltarFOSS; all rights reserved."
-paginate = 1
+title = "untitled"
+
 languageCode = "id-id"
 enableInlineShortcodes = true
-footnoteReturnLinkContents = "^"
+
 googleAnalytics = "UA-165378696-1"
-DisqusShortname = "altarfoss"
-theme = "hugo-theme-chunky-poster"
+DisqusShortname = "sudo-id"
+
+theme = "kelayu"
+
+paginate = "6"
+
+pygmentsstyle = "dracula"
+
+# disqus short name
+disqusShortname = "sudo-id"
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[permalinks]
+  post = "/:filename/"
+
+[taxonomies]
+tag = "tags"
+author = "authors"
+series = "series" 
 
 [menu]
   [[menu.main]]
-    identifier = "beranda"
-    name = "Beranda"
-    url = "/"
+    identifier = "editorial"
+    name = "Editorial"
+    url = "/series/editorial/"
     weight = 1
-  [[menu.main]]
+    [[menu.main]]
+    identifier = "tutorial"
+    name = "Tutorial"
+    url = "/category/tutorial/"
+    weight = 2
+    [[menu.main]]
+    identifier = "berita"
+    name = "Berita"
+    url = "/category/berita/"
+    weight = 3
+    [[menu.main]]
+    identifier = "ebook"
+    name = "Ebook"
+    url = "/category/ebook/"
+    weight = 4
+
+    [[menu.bottom]]
     identifier = "tentang"
     name = "Tentang"
-    url = "/tentang/"
+    url = "/about/"
+    weight = 1
+    [[menu.bottom]]
+    identifier = "privasi"
+    name = "Privasi"
+    url = "/privacy/"
     weight = 2
-[[menu.main]]
-	identifier = "fokus"
-	name = "Fokus"
-	title = "Fokus"
-	weight = 3
-	    [[menu.main]]
-		parent = "fokus"
-		name = "Linux"
-		url = "/tags/linux"
-		weight = 1
-	    [[menu.main]]
-		parent = "fokus"
-		name = "Privasi"
-		url = "/tags/privasi"
-		weight = 2
-	    [[menu.main]]
-		parent = "fokus"
-		name = "Altarnatif Software"
-		url = "/tag/alternatifsoftware"
-		weight = 3
-
-
-[taxonomies]
-category = "categories"
-tag = "tags"
-series = "series"
-author = "authors"
-
-[params]
-  author = "AltarFOSS"
-  description = "Sesajen dari Pengguna Sumber Terbuka."
-  homepageImage = "/images/homepage-image.jpg"
-  share = true
-  showLanguageSwitcher = false
-
-  # Custom CSS and JS. Relative to /static/css and /static/js respectively.
-  customCSS = []
-  customJS = []
-
-  [params.social]
-    rss = true
-    email = "analytic.altarfoss@gmail.com"
-    instagram = "https://stackoverflow.com"
-    github = "https://github.com/altarfoss"
-
-  [params.prismJS]
-    enable = true
-    theme = ""
-
-  [params.commento]
-    enable = false
-    url = "https://commento.io"
-
-[markup]
-  [markup.highlight]
-    codeFences = false
-
-[services]
-  [services.instagram]
-    disableInlineCSS = true
-
-  [services.twitter]
-    disableInlineCSS = true
+    [[menu.bottom]]
+    identifier = "penolakan"
+    name = "Penolakan"
+    url = "/disclaimer/"
+    weight = 3
+    [[menu.bottom]]
+    identifier = "kontak"
+    name = "Kontak"
+    url = "/contact/"
+    weight = 4
+    [[menu.bottom]]
+    identifier = "arsip"
+    name = "Arsip"
+    url = "/arsip/"
+    weight = 5
